@@ -27,7 +27,9 @@ public class ScreenshotWithoutUsingRobot
 		
 		driver.quit();
 		File d=new File("D:/vikram1.png");
-		FileUtils.copyFile(v, d);
+		
+		
+		//FileUtils.copyFile(v, d);
 		
 	}
 	
